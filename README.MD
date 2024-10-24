@@ -4,6 +4,8 @@
 
 This project performs an exploratory data analysis (EDA) on a dataset containing Netflix movies. The primary objective is to dive into the movie data, particularly focusing on movies released in the 1990s, and to gain insights into the trends, genres, directors, and more. The notebook is aimed at flexing analytical skills while exploring the entertainment industry.
 
+In addition this project builds a model to predict the timing of the movies in the dataset according to release year, director and genre of movie using Pytorch Deep Learning model.
+
 This project uses Python and key data science libraries like Pandas and Matplotlib for analysis and visualization.
 
 ## Dataset
@@ -24,8 +26,6 @@ The dataset used in this project is `netflix_data.csv`, which contains the follo
 | `description`| A brief description of the show |
 | `genre`      | The genre of the show         |
 
-The dataset file is not provided in this repository due to size constraints. You will need to download the dataset separately and place it in the project root.
-
 ## Project Structure
 
 The main analysis is contained within a Jupyter notebook (`notebook.ipynb`), which covers the following sections:
@@ -40,9 +40,7 @@ To run the project, ensure you have the required dependencies installed. You can
 
 ```bash
 pip install -r requirements.txt
-
-´´´
-
+```
 ### Running the Jupyter Notebook
 
 1. Ensure you have Jupyter installed by following the installation instructions in the official [Jupyter documentation](https://jupyter.org/install).
@@ -50,8 +48,7 @@ pip install -r requirements.txt
 
 ```bash
 jupyter notebook
-
-´´´
+```
 
 3. Open `notebook.ipynb` and run the cells to perform the analysis.
 
