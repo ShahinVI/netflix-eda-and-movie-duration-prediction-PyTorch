@@ -40,7 +40,7 @@ To run the project, ensure you have the required dependencies installed. You can
 
 ```bash
 pip install -r requirements.txt
-
+```
 ### Running the Jupyter Notebook
 
 1. Ensure you have Jupyter installed by following the installation instructions in the official [Jupyter documentation](https://jupyter.org/install).
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 ```bash
 jupyter notebook
-
+```
 
 3. Open `notebook.ipynb` and run the cells to perform the analysis.
 
